@@ -9,7 +9,7 @@ import ImageOverlayCard from "./ImageOverlayCard";
 
 
 import capabilitiesImg from "../../assets/1.png";
-import peopleImg from "../../assets/people.jpg";
+import peopleImg from "../../assets/people.JPG";
 import showroomImg from "../../assets/OurShowroom.png";
 
 function Sustainability() {
