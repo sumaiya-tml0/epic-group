@@ -114,7 +114,7 @@ function Latest() {
             <div className="pl-2 md:pl-4 lg:pl-8">
               <div
               key={item.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden min-h-[465px]"
+              className="bg-white rounded-lg shadow-md overflow-hidden md:min-h-[465px] lg:min-h-[500px]"
             >
               <img
                 src={item.img}
