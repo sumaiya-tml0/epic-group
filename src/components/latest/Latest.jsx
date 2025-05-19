@@ -108,13 +108,13 @@ function Latest() {
       <div className="slider-container max-w-[1250px] mx-auto">
         <Slider
           {...settings}
-          className="gap-6 pr-2 md:pr-8 pb-8 bg-[#f9f9fd] cursor-grab"
+          className="gap-6 pr-2 md:pr-4 lg:pr-8 pb-8 bg-[#f9f9fd] cursor-grab"
         >
           {items.map((item) => (
-            <div className="pl-2 md:pl-8">
+            <div className="pl-2 md:pl-4 lg:pl-8">
               <div
               key={item.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
+              className="bg-white rounded-lg shadow-md overflow-hidden min-h-[465px]"
             >
               <img
                 src={item.img}

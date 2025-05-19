@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="pt-28 md:pt-16">
+    <div className="pt-28 md:pt-24">
       <p className="lg:text-xl px-3.5 mb-1.5">
         At the heart of this is Epic's Relentless Pursuit of Better in every
         aspect of our operations. Put simply, we strive, in every way and every
