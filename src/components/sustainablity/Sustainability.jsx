@@ -27,7 +27,7 @@ function Sustainability() {
       <div className="max-w-[1250px] mx-auto px-4">
         <div className="flex flex-col-reverse md:flex-row items-center gap-6">
           <div className="space-y-6 md:w-1/2 justify-items-center lg:justify-items-start">
-            <div className="badge bg-white uppercase font-bold">
+            <div className="badge bg-white uppercase font-bold text-black">
               sustainability
             </div>
             <h1 className="text-4xl lg:text-5xl text-white font-bold text-center lg:text-left">
