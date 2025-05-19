@@ -23,7 +23,7 @@ function App() {
       </section>
     </main>
     <Sustainability/>
-    {/* <Latest/> */}
+    <Latest/>
     <Certifications/>
     <Footer/>
     </>
