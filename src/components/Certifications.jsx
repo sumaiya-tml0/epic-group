@@ -16,9 +16,9 @@ import Marquee from "react-fast-marquee";
 
 function Certifications() {
   return (
-    <div>
-     <div className='text-center uppercase font-bold text-2xl md:text-3xl lg:text-4xl text-[#1a3b91] mb-8'>
-        <h2>Accreditations & CertificatIONS</h2>
+    <div className="pt-15">
+     <div className='text-center capitalize font-bold text-2xl md:text-3xl lg:text-5xl text-[#1a3b91] mb-8'>
+        <h2>Accreditations & Certifications</h2>
     </div>
       <Marquee
        pauseOnHover="true"

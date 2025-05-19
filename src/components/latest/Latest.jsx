@@ -73,6 +73,23 @@ function Latest() {
     speed: 200,
     slidesToShow: 2,
     slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -91,10 +108,10 @@ function Latest() {
       <div className="slider-container max-w-[1250px] mx-auto">
         <Slider
           {...settings}
-          className="gap-6 pr-8 pb-8 bg-[#f9f9fd] cursor-grab"
+          className="gap-6 pr-2 md:pr-8 pb-8 bg-[#f9f9fd] cursor-grab"
         >
           {items.map((item) => (
-            <div className="pl-8">
+            <div className="pl-2 md:pl-8">
               <div
               key={item.id}
               className="bg-white rounded-lg shadow-md overflow-hidden"
