@@ -23,14 +23,14 @@ function Banner() {
   };
   return (
    <>
-   <div className="slider-container relative w-full h-[450px] md:h-[530px] sm:h-[400px] overflow-hidden">
+   <div className="slider-container relative w-full h-[450px] md:h-[630px] sm:h-[400px] overflow-hidden">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
 
       {/* Slider (should be behind the header) */}
       <Slider {...settings}>
        {[img1, img2, img3, img4].map((img, idx) => (
-          <div key={idx} className="w-full h-[450px] md:h-[530px] sm:h-[400px]">
+          <div key={idx} className="w-full h-[450px] md:h-[630px] sm:h-[400px]">
             <img
               src={img}
               alt={`Slide ${idx + 1}`}
