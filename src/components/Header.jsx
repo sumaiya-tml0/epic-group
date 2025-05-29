@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
 import logo from "../assets/logo.png";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
+import { NavLink } from "react-router-dom";
 function Header() {
       const [menuOpen, setMenuOpen] = useState(false);
 
@@ -21,10 +22,10 @@ function Header() {
       <div className="hidden lg:block ">
         <ul className="capitalize flex items-center gap-6  text-white open-sans">
           <li>
-            <a href="">home</a>
+            <NavLink to="/">home</NavLink>
           </li>
           <li>
-            <a href="">about us</a>
+            <NavLink to="/about">about us</NavLink>
           </li>
           <li>
             <a href="">capabilities</a>

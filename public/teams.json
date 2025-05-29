@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Suraj Kakra",
+    "designation": "Chief Executive Officer",
+    "image": "team1.jpg"
+  },
+  {
+    "name": "Anurag Asthana",
+    "designation": "Chief Sales & Marketing Officer",
+    "image": "team2.jpg"
+  },
+  {
+    "name": "Justin Wong",
+    "designation": "Chief Financial Officer",
+    "image": "team3.jpg"
+  },
+  {
+    "name": "Rajeev Singh",
+    "designation": "Chief Human Resources Officer",
+    "image": "team4.jpg"
+  },
+  {
+    "name": "Peyush Kumar",
+    "designation": "Chief Procurement Officer",
+    "image": "team5.jpg"
+  },
+  {
+    "name": "Helen Morris",
+    "designation": "Group Legal Counsel",
+    "image": "team6.jpg"
+  },
+  {
+    "name": "Brian Doiou",
+    "designation": "President – Design/Product Development",
+    "image": "team7.jpg"
+  },
+  {
+    "name": "Vilhura Rolopasunvee",
+    "designation": "Head of Sustainability",
+    "image": "team8.jpg"
+  },
+  {
+    "name": "Mr. Khutubuddin Ahmed",
+    "designation": "Advisor to the Board",
+    "image": "team9.jpg"
+  },
+  {
+    "name": "Phillip Marcovici",
+    "designation": "Group Advisor",
+    "image": "team10.jpg"
+  },
+  {
+    "name": "Mr. Tanvir Ahmed",
+    "designation": "Group Advisor",
+    "image": "team11.jpg"
+  }
+]

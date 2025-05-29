@@ -8,8 +8,11 @@ import img2 from "../../assets/banner/banner2.jpg"
 import img3 from "../../assets/banner/banner3.jpg"
 import img4 from "../../assets/banner/banner4.jpg"
 import BannerText from './BannerText';
+import { useLocation } from 'react-router-dom';
 
 function Banner() {
+  const location = useLocation();
+  const isAboutPage = location.pathname === "/about"
      const settings = {
     
     infinite: true,
@@ -48,7 +51,8 @@ function Banner() {
 
 
     </div>
-      <BannerText/></>
+      {!isAboutPage && <BannerText/>}
+      </>
   )
 }
 
