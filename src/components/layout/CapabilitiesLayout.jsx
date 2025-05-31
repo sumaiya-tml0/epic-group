@@ -1,23 +1,21 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import CapabilitiesTabSection from "./shared/CapabilitiesTabSection";
+import CapabilitiesTabSection from "../shared/CapabilitiesTabSection";
 
-import Img1 from "../assets/aboutPage/design1.jpg";
-import Img2 from "../assets/aboutPage/Prototyping_Browzwear.jpg";
-import Img3 from "../assets/aboutPage/co-creation.jpg";
-import Img4 from "../assets/aboutPage/supply-chain1.jpg";
-import Img5 from "../assets/aboutPage/hero_1.jpg";
-import Img6 from "../assets/aboutPage/forest.jpg";
-import Img7 from "../assets/aboutPage/byong1.jpg";
-import Img8 from "../assets/aboutPage/technology-2.jpg";
+import Img1 from "../../assets/aboutPage/design1.jpg";
+import Img2 from "../../assets/aboutPage/Prototyping_Browzwear.jpg";
+import Img3 from "../../assets/aboutPage/co-creation.jpg";
+import Img4 from "../../assets/aboutPage/supply-chain1.jpg";
+import Img5 from "../../assets/aboutPage/hero_1.jpg";
+import Img6 from "../../assets/aboutPage/forest.jpg";
+import Img7 from "../../assets/aboutPage/byong1.jpg";
+import Img8 from "../../assets/aboutPage/technology-2.jpg";
 
-import epicStudio from "../assets/aboutPage/epic_studio.jpg";
-import earthYoga from "../assets/aboutPage/earth-yoga.jpg";
-import brandImg1 from "../assets/aboutPage/brand1.jpg";
-import brandImg2 from "../assets/aboutPage/brand2.jpg";
-
-import bg from "../assets/aboutPage/bg.svg";
+import epicStudio from "../../assets/aboutPage/epic_studio.jpg";
+import earthYoga from "../../assets/aboutPage/earth-yoga.jpg";
+import brandImg1 from "../../assets/aboutPage/brand1.jpg";
+import brandImg2 from "../../assets/aboutPage/brand2.jpg";
 
 export default function CapabilitiesLayout() {
   const designDevelopment = {

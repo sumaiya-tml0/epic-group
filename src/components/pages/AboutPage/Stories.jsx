@@ -1,8 +1,8 @@
 import React from "react";
-import blueWater from "../../assets/aboutPage/blue-water.jpg";
-import almaz from "../../assets/aboutPage/almaz.jpg";
-import blogFin from "../../assets/aboutPage/blog-fin.jpg";
-import SectionTitle from "../shared/Title";
+import blueWater from "../../../assets/aboutPage/blue-water.jpg";
+import almaz from "../../../assets/aboutPage/almaz.jpg";
+import blogFin from "../../../assets/aboutPage/blog-fin.jpg";
+import SectionTitle from "../../shared/Title";
 
 const Stories = () => {
   const stories = [

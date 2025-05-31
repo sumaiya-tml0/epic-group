@@ -1,16 +1,15 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import gsap from "gsap";
 import Draggable from "gsap/Draggable";
 
-import img1 from "../../assets/latest/steelSupply.jpeg";
-import img2 from "../../assets/latest/Interview.png";
-import img3 from "../../assets/latest/creativeGP.png";
-import img4 from "../../assets/latest/twitter.png";
-import img5 from "../../assets/latest/award.png";
-import img6 from "../../assets/latest/membership.png";
+import img1 from "../../../../assets/latest/steelSupply.jpeg";
+import img2 from "../../../../assets/latest/Interview.png";
+import img3 from "../../../../assets/latest/creativeGP.png";
+import img4 from "../../../../assets/latest/twitter.png";
+import img5 from "../../../../assets/latest/award.png";
+import img6 from "../../../../assets/latest/membership.png";
 import { IoIosArrowForward } from "react-icons/io";
 import Slider from "react-slick";
 
@@ -35,7 +34,8 @@ const items = [
   {
     id: 3,
     img: img3,
-    title: "Strategic Joint Venture Announcement Between Epic Group and Creative Group",
+    title:
+      "Strategic Joint Venture Announcement Between Epic Group and Creative Group",
     excerpt:
       "January 9, 2025 &#8211; In a significant development aimed at harnessing growth opportunities in India, Epic Group and Creative Group",
     category: "Epic Global",
@@ -79,17 +79,16 @@ function Latest() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          
-        }
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -113,24 +112,24 @@ function Latest() {
           {items.map((item) => (
             <div className="pl-2 md:pl-4 lg:pl-8">
               <div
-              key={item.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden min-h-[500px] md:min-h-[465px] lg:min-h-[500px]"
-            >
-              <img
-                src={item.img}
-                alt={item.title}
-                className="w-full h-full object-cover"
-              />
-              <div className="p-4">
-                <p className="text-sm text-black mb-2">{item.category}</p>
-                <h3 className="font-bold text-xl text-gray-800 mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-7">
-                  {item.excerpt}
-                </p>
+                key={item.id}
+                className="bg-white rounded-lg shadow-md overflow-hidden min-h-[500px] md:min-h-[465px] lg:min-h-[500px]"
+              >
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-full object-cover"
+                />
+                <div className="p-4">
+                  <p className="text-sm text-black mb-2">{item.category}</p>
+                  <h3 className="font-bold text-xl text-gray-800 mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 leading-7">
+                    {item.excerpt}
+                  </p>
+                </div>
               </div>
-            </div>
             </div>
           ))}
         </Slider>

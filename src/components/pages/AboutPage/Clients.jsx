@@ -3,19 +3,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
 
-import img1 from "../../assets/aboutPage/8.png";
-import img2 from "../../assets/aboutPage/10.png";
-import img3 from "../../assets/aboutPage/12.png";
-import img4 from "../../assets/aboutPage/15.png";
-import img5 from "../../assets/aboutPage/16.png";
-import img6 from "../../assets/aboutPage/1-1.png";
-import img7 from "../../assets/aboutPage/7.png";
-import img8 from "../../assets/aboutPage/pwc.png";
-import img9 from "../../assets/aboutPage/8.jpg";
-import img10 from "../../assets/aboutPage/Fast-React.png";
-import img11 from "../../assets/aboutPage/partners-7.jpg";
-import img12 from "../../assets/aboutPage/partners-5.jpg";
-import img13 from "../../assets/aboutPage/partners-6.jpg";
+import img1 from "../../../assets/aboutPage/8.png";
+import img2 from "../../../assets/aboutPage/10.png";
+import img3 from "../../../assets/aboutPage/12.png";
+import img4 from "../../../assets/aboutPage/15.png";
+import img5 from "../../../assets/aboutPage/16.png";
+import img6 from "../../../assets/aboutPage/1-1.png";
+import img7 from "../../../assets/aboutPage/7.png";
+import img8 from "../../../assets/aboutPage/pwc.png";
+import img9 from "../../../assets/aboutPage/8.jpg";
+import img10 from "../../../assets/aboutPage/Fast-React.png";
+import img11 from "../../../assets/aboutPage/partners-7.jpg";
+import img12 from "../../../assets/aboutPage/partners-5.jpg";
+import img13 from "../../../assets/aboutPage/partners-6.jpg";
 
 const Clients = () => {
   return (
