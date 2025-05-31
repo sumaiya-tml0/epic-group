@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import team from "../../assets/aboutPage/team.jpg";
 import team1 from "../../assets/aboutPage/team1.jpg";
 import team2 from "../../assets/aboutPage/team2.jpg";
