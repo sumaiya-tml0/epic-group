@@ -10,6 +10,10 @@ body {
   color: #5f6973;
   background-color: white;
 }
+section{
+  max-width: 1250px;
+  margin: 0 auto;
+}
 .carousel-container {
   display: flex;
   overflow: hidden;
@@ -48,4 +52,14 @@ body {
 
 .backface-hidden {
   backface-visibility: hidden;
+}
+.react-tabs__tab {
+  
+    padding: 12px 35px !important;
+}
+.react-tabs__tab--selected {
+  /* width: 100% !important; */
+    border: none !important;
+    color: #1a3b91 !important;
+    border-radius: 50px !important;
 }

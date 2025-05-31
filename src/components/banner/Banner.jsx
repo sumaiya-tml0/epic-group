@@ -12,7 +12,7 @@ import { useLocation } from 'react-router-dom';
 
 function Banner() {
   const location = useLocation();
-  const isAboutPage = location.pathname === "/about"
+  const isHomePage = location.pathname === "/"
      const settings = {
     
     infinite: true,
@@ -51,7 +51,7 @@ function Banner() {
 
 
     </div>
-      {!isAboutPage && <BannerText/>}
+      {isHomePage && <BannerText/>}
       </>
   )
 }

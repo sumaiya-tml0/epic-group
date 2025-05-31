@@ -28,7 +28,7 @@ function Header() {
             <NavLink to="/about">about us</NavLink>
           </li>
           <li>
-            <a href="">capabilities</a>
+            <NavLink to="/our-capabilities">capabilities</NavLink>
           </li>
           <li>
             <a href="">sustainability</a>

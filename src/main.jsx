@@ -10,6 +10,7 @@ import {
 import MainLayout from './components/MainLayout.jsx';
 import Home from './components/Home.jsx';
 import AboutLayout from './components/AboutLayout.jsx';
+import CapabilitiesLayout from './components/CapabilitiesLayout.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutLayout />,
+      },
+      {
+        path: "/our-capabilities",
+        element: <CapabilitiesLayout/>,
       },
     ],
   },
