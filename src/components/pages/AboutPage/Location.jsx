@@ -1,6 +1,6 @@
 import React from "react";
-import SectionTitle from "../shared/Title";
-import location from "../../assets/aboutPage/location.png";
+import SectionTitle from "../../shared/Title";
+import location from "../../../assets/aboutPage/location.png";
 
 const Location = () => {
   return (
