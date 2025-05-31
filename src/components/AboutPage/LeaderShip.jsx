@@ -13,77 +13,76 @@ import team10 from "../../assets/aboutPage/team10.jpg";
 import team11 from "../../assets/aboutPage/team11.jpg";
 
 export default function LeaderShip() {
-   const teams =  [
-  {
-    "name": "Suraj Kakra",
-    "designation": "Chief Executive Officer",
-    "image": team1
-  },
-  {
-    "name": "Anurag Asthana",
-    "designation": "Chief Sales & Marketing Officer",
-    "image": team2
-  },
-  {
-    "name": "Justin Wong",
-    "designation": "Chief Financial Officer",
-    "image": team3
-  },
-  {
-    "name": "Rajeev Singh",
-    "designation": "Chief Human Resources Officer",
-    "image": team4
-  },
-  {
-    "name": "Peyush Kumar",
-    "designation": "Chief Procurement Officer",
-    "image": team5
-  },
-  {
-    "name": "Helen Morris",
-    "designation": "Group Legal Counsel",
-    "image": team6
-  },
-  {
-    "name": "Brian Doiou",
-    "designation": "President – Design/Product Development",
-    "image": team7
-  },
-  {
-    "name": "Vilhura Rolopasunvee",
-    "designation": "Head of Sustainability",
-    "image": team8
-  },
-  {
-    "name": "Mr. Khutubuddin Ahmed",
-    "designation": "Advisor to the Board",
-    "image": team9
-  },
-  {
-    "name": "Phillip Marcovici",
-    "designation": "Group Advisor",
-    "image": team10
-  },
-  {
-    "name": "Mr. Tanvir Ahmed",
-    "designation": "Group Advisor",
-    "image": team11
-  }
-]
+  const teams = [
+    {
+      name: "Suraj Kakra",
+      designation: "Chief Executive Officer",
+      image: team1,
+    },
+    {
+      name: "Anurag Asthana",
+      designation: "Chief Sales & Marketing Officer",
+      image: team2,
+    },
+    {
+      name: "Justin Wong",
+      designation: "Chief Financial Officer",
+      image: team3,
+    },
+    {
+      name: "Rajeev Singh",
+      designation: "Chief Human Resources Officer",
+      image: team4,
+    },
+    {
+      name: "Peyush Kumar",
+      designation: "Chief Procurement Officer",
+      image: team5,
+    },
+    {
+      name: "Helen Morris",
+      designation: "Group Legal Counsel",
+      image: team6,
+    },
+    {
+      name: "Brian Doiou",
+      designation: "President – Design/Product Development",
+      image: team7,
+    },
+    {
+      name: "Vilhura Rolopasunvee",
+      designation: "Head of Sustainability",
+      image: team8,
+    },
+    {
+      name: "Mr. Khutubuddin Ahmed",
+      designation: "Advisor to the Board",
+      image: team9,
+    },
+    {
+      name: "Phillip Marcovici",
+      designation: "Group Advisor",
+      image: team10,
+    },
+    {
+      name: "Mr. Tanvir Ahmed",
+      designation: "Group Advisor",
+      image: team11,
+    },
+  ];
 
-  console.log(teams);
   return (
-    <div className="bg-[#081f3f] text-white pt-16 pb-8">
+    <div className="bg-[#081f3f] text-white pt-11 lg:pt-[85px] pb-8">
       <div className="max-w-[1250px] mx-auto">
         <div className="px-4">
-          <h2 className=" text-6xl font-bold text-center mb-8">
+          <h2 className="text-[9.5vw] md:text-[45px] lg:text-6xl font-bold text-center mb-8 leading-tight">
             Our Leadership Team
           </h2>
           <img src={team} alt="" />
 
           <div className="max-w-[1100px] mx-auto">
             <div className="flex flex-col items-center justify-center text-center">
-              <p className="my-4 text-3xl">
+              <p className="my-4 text-[32px] md:text-3xl leading-relaxed lg:leading-normal">
                 <strong>Our Management Team:</strong>
               </p>
               <p>
@@ -118,17 +117,24 @@ export default function LeaderShip() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 items-center justify-center gap-x-24 gap-y-10">
+            <div className="grid md:grid-cols-3 gap-x-8 lg:gap-x-24 gap-y-10 mt-20">
               {teams.map((team, idx) => (
-                <div>
-                <figure>
-                    <img src={team.image} className="w-full h-full object-cover"></img>
-                </figure>
-                <h3 className="mt-3 font-bold">{team.name} <br /> {team.designation}</h3>
-                </div>
+                <div key={idx}>
+                  <figure>
+                    <img
+                      src={team.image}
+                      className="w-full h-full object-cover"
+                    ></img>
+                  </figure>
 
+                  <h3 className="mt-3 font-bold">
+                    {team.name} <br /> {team.designation}
+                  </h3>
+                </div>
               ))}
             </div>
+
+            <div className="h-14 lg:h-[85px]"></div>
           </div>
         </div>
       </div>
