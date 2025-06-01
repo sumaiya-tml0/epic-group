@@ -12,8 +12,8 @@ function Header() {
   };
 
   return (
-    <header className="py-6 lg:py-10 absolute z-20 w-full">
-        <div className="max-w-[1300px] mx-auto px-4 lg:px-10">
+    <header className="py-6 lg:py-10 px-10 absolute z-20 w-full">
+        <div className=" px-4 lg:px-10">
             <div className="flex items-center justify-between">
       <div className="max-w-40 lg:max-w-56">
         <img src={logo} alt="Epic group" />
