@@ -31,10 +31,10 @@ function Header() {
             <NavLink to="/our-capabilities">capabilities</NavLink>
           </li>
           <li>
-            <a href="">sustainability</a>
+            <a>sustainability</a>
           </li>
           <li>
-            <a href="">careers</a>
+            <NavLink to="/our-careers">careers</NavLink>
           </li>
         </ul>
       </div>

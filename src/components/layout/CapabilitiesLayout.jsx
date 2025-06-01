@@ -1,6 +1,6 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+
 import CapabilitiesTabSection from "../shared/CapabilitiesTabSection";
 
 import Img1 from "../../assets/aboutPage/design1.jpg";
@@ -193,9 +193,10 @@ export default function CapabilitiesLayout() {
         backgroundSize: "contain",
       }}
     >
+
       <div className="px-4">
         <Tabs>
-          <TabList className="flex flex-wrap lg:justify-between lg:bg-[#ebf0f3] rounded-full justify-center text-[#1a3b91] px-2 py-1.5 text-sm mb-12 capitalize">
+          <TabList className="flex flex-col md:gap-1 sm:flex-row sm:flex-wrap lg:justify-between lg:bg-[#ebf0f3] lg:rounded-full  text-[#1a3b91] px-2 lg:py-1.5 text-sm mb-12 capitalize cursor-pointer">
             <Tab>Design & development</Tab>
             <Tab>supply chain</Tab>
             <Tab>manufacturing</Tab>
