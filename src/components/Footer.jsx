@@ -5,8 +5,8 @@ import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <>
-      <footer className="footer text-base lg:footer-horizontal bg-[#000526] text-white p-10 pt-20">
+    <div className="bg-[#000526]">
+      <footer className="footer text-base lg:footer-horizontal max-w-[1250px] mx-auto text-white p-10 pt-20">
         <div>
           <img src={logo} alt="" className="max-w-48" />
           <p className="mt-12">
@@ -59,7 +59,7 @@ function Footer() {
           </div>
         </nav>
       </footer>
-      <footer className="footer bg-[#000526] p-10 pt-0">
+      <footer className="footer bg-[#000526] p-10 pt-0 max-w-[1250px] mx-auto">
         <span className="border-[#ffffff29] border-t w-full" ></span>
         <aside className="grid-flow-col items-center text-white">
         
@@ -70,7 +70,7 @@ function Footer() {
         </aside>
        
       </footer>
-    </>
+    </div>
   );
 }
 

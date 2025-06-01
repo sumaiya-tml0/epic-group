@@ -37,7 +37,7 @@ function Banner() {
   };
   return (
    <>
-   <div className="slider-container relative w-full h-[450px] md:h-[650px] lg:h-[860px] sm:h-[400px] overflow-hidden">
+   <div className="relative w-full h-screen overflow-hidden">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
 
@@ -45,7 +45,7 @@ function Banner() {
          {bannerType === "slider" && (
           <Slider {...settings}>
             {[img1, img2, img3, img4].map((img, idx) => (
-              <div key={idx} className="w-full h-[450px] md:h-[650px] lg:h-[860px] sm:h-[400px]">
+              <div key={idx} className="w-full h-screen">
                 <img src={img} alt={`Slide ${idx + 1}`} className="w-full h-full object-cover" />
               </div>
             ))}
