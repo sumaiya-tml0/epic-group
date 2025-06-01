@@ -1,5 +1,5 @@
 import React from "react";
-import timeline from "../../assets/aboutPage/timeline.png";
+import timeline from "../../../assets/aboutPage/timeline.png";
 
 const Timeline = () => {
   return (
