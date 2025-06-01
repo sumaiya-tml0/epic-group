@@ -16,11 +16,11 @@ import BannerText from './BannerText';
 function Banner() {
   const location = useLocation();
   const path = location.pathname
-   const isHomePage = location.pathname === "/"
+   const isHomePage = path === "/";
 
     const bannerType = {
     "/": "slider",
-    "/about": "image",
+    "/about": "video",
     "/our-careers": "image",
   }[path] || "none"; 
 
@@ -45,7 +45,7 @@ function Banner() {
          {bannerType === "slider" && (
           <Slider {...settings}>
             {[img1, img2, img3, img4].map((img, idx) => (
-              <div key={idx} className="w-full h-full">
+              <div key={idx} className="w-full h-[450px] md:h-[650px] lg:h-[860px] sm:h-[400px]">
                 <img src={img} alt={`Slide ${idx + 1}`} className="w-full h-full object-cover" />
               </div>
             ))}
