@@ -184,17 +184,23 @@ export default function CapabilitiesLayout() {
   };
 
   return (
-    <section
-      className="pt-12 pb-[60px]"
-      style={{
-        backgroundImage: `url('https://startuphub.liquid-themes.com/staging/wp-content/uploads/2020/04/bg-3.svg?id=776')`,
-        backgroundPosition: "-570px 0",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-      }}
+    <div
+      className="pt-12 pb-[60px] relative" style={{backgroundPosition:"-250px 0px"}}
     >
+      <div className='absolute inline-block top-0 left-0 right-0 bottom-0 bg-auto bg-no-repeat'>
 
-      <div className="px-4">
+          <figure className='absolute inline-block top-0 left-0 right-0 bottom-0' style={{
+           backgroundImage: `url('https://startuphub.liquid-themes.com/staging/wp-content/uploads/2020/04/bg-3.svg?id=776')`,
+          backgroundPosition:"-250px 0px",
+           backgroundRepeat: "no-repeat",
+           backgroundSize: "auto",
+         }}>
+
+         </figure>
+
+        </div>
+
+      <div className="px-4 max-w-[1250px] mx-auto relative">
         <Tabs>
           <TabList className="flex flex-col md:gap-1 sm:flex-row sm:flex-wrap lg:justify-between lg:bg-[#ebf0f3] lg:rounded-full  text-[#1a3b91] px-2 lg:py-1.5 text-sm mb-12 capitalize cursor-pointer">
             <Tab>Design & development</Tab>
@@ -255,6 +261,6 @@ export default function CapabilitiesLayout() {
           </TabPanel>
         </Tabs>
       </div>
-    </section>
+    </div>
   );
 }

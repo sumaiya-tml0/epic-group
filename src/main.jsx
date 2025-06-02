@@ -9,6 +9,7 @@ import Home from "./components/layout/Home.jsx";
 import AboutLayout from "./components/layout/AboutLayout.jsx";
 import CapabilitiesLayout from "./components/layout/CapabilitiesLayout.jsx";
 import CareerLayout from "./components/layout/CareerLayout.jsx";
+import SustainabilityLayout from "./components/layout/SustainabilityLayout.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/our-capabilities",
         element: <CapabilitiesLayout />,
+      },
+      {
+        path: "/sustainability",
+        element: <SustainabilityLayout/>,
       },
       {
         path: "/our-careers",

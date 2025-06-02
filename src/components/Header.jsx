@@ -31,7 +31,7 @@ function Header() {
             <NavLink to="/our-capabilities">capabilities</NavLink>
           </li>
           <li>
-            <a>sustainability</a>
+            <NavLink to="/sustainability">sustainability</NavLink>
           </li>
           <li>
             <NavLink to="/our-careers">careers</NavLink>
@@ -61,7 +61,7 @@ function Header() {
         <NavLink to="/our-capabilities">capabilities</NavLink>
       </li>
       <li className="py-4">
-        <a href="">Sustainability</a>
+        <NavLink to="/sustainability">Sustainability</NavLink>
       </li>
       <li className="py-4">
         <NavLink to="/our-careers">careers</NavLink>
