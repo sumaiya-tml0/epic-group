@@ -12,6 +12,7 @@ import CareerLayout from "./components/layout/CareerLayout.jsx";
 import SustainabilityLayout from "./components/layout/SustainabilityLayout.jsx";
 import OurPeople from "./components/pages/OurPeoplePage/OurPeople.jsx";
 import Showroom from "./components/pages/showroom/Showroom.jsx";
+import BrandValue from "./components/pages/brandValue/BrandValue.jsx";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/showroom",
         element: <Showroom/>,
+      },
+      {
+        path: "/epic-brand-values",
+        element: <BrandValue/>,
       },
     ],
   },
