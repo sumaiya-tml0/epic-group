@@ -56,7 +56,7 @@ export default function SustainabilityLayout() {
           title: "Water Reduction",
           description:
             "To help us achieve ZDHC progressive/aspirational-level water discharge standards, we’ve entered into a strategic partnership with Arvind Envisol to boost our sustainable effluent treatment solutions.\n\nBased on advanced membrane technology, this will allow us to reuse 30-50% of the water, and reduce our water footprint across half our manufacturing units.",
-          image: Img3,
+          video: "https://www.youtube.com/embed/9KYJVYCZ8po?feature=oembed",
         },
         {
           title: "Low-Impact Laundry",
@@ -68,7 +68,7 @@ export default function SustainabilityLayout() {
           title: "Low-Water Denim",
           description:
             "We are excited to be working with a customer to launch their first low-water denim program. This is a collaboration with Arvind Limited which produces an innovative denim fabric ‘Quantum Indigo’ using foam dye technology. The products are manufactured by EPIC with the use of laser, Ozone and Rainforest washing machines.",
-          image: Img3,
+          video: "https://www.youtube.com/embed/9KYJVYCZ8po?feature=oembed",
         },
       ],
     };

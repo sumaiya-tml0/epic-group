@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/f_logo.png";
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -19,7 +20,7 @@ function Footer() {
             Our Company
           </h6>
           <a className="link hover:text-[#0367bf] no-underline">About Us</a>
-          <a className="link hover:text-[#0367bf] no-underline">Our People</a>
+          <NavLink to="/our-people" className="link hover:text-[#0367bf] no-underline">Our People</NavLink>
           <a className="link hover:text-[#0367bf] no-underline">Our Capabilities</a>
           <a className="link hover:text-[#0367bf] no-underline">Sustainability</a>
           <a className="link hover:text-[#0367bf] no-underline">Showroom</a>
