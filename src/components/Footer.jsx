@@ -23,7 +23,7 @@ function Footer() {
           <NavLink to="/our-people" className="link hover:text-[#0367bf] no-underline">Our People</NavLink>
           <a className="link hover:text-[#0367bf] no-underline">Our Capabilities</a>
           <a className="link hover:text-[#0367bf] no-underline">Sustainability</a>
-          <a className="link hover:text-[#0367bf] no-underline">Showroom</a>
+          <NavLink to="/showroom" className="link hover:text-[#0367bf] no-underline">Showroom</NavLink>
           <a className="link hover:text-[#0367bf] no-underline">Epic Brand Values</a>
         </nav>
         <nav>
