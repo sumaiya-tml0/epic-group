@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import logo from "../assets/f_logo.png";
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
+
 function Footer() {
+  
   return (
+    <>
     <div className="bg-[#000526]">
       <footer className="footer text-base lg:footer-horizontal max-w-[1250px] mx-auto text-white px-4 pb-10 pt-20">
         <div>
@@ -71,7 +74,7 @@ function Footer() {
         </aside>
        
       </footer>
-    </div>
+    </div></>
   );
 }
 

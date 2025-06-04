@@ -24,14 +24,16 @@ function Certifications() {
         pauseOnHover="true"
         speed={150}
         gradient="true"
+        autoFill="true"
+        draggable="true"
         extensions={{ AutoScroll }}
         aria-label="Certifications Logos"
-        className="my-20"
+        className="my-20 max-w-[1250px] mx-auto"
       >
         {[img, img1, img2, img3, img4, img5, img6].map((logo, index) => (
           <div
             key={index}
-            className=" min-w-[180px] flex items-center justify-center"
+            className="md:min-w-[120px] lg:min-w-[150px] flex items-center justify-center"
           >
             <img
               src={logo}

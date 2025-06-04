@@ -6,11 +6,11 @@ import Banner from "../banner/Banner";
 
 export default function MainLayout() {
   return (
-    <>
+     <div>
       <Header />
       <Banner />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
