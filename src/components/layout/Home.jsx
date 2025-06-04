@@ -9,13 +9,11 @@ export default function Home() {
   return (
     <>
       <main>
-        <section className="max-w-[1250px] mx-auto">
-          <About />
-        </section>
+        <About />
+        <Sustainability />
+        <Latest />
+        <Certifications />
       </main>
-      <Sustainability />
-      <Latest />
-      <Certifications />
     </>
   );
 }

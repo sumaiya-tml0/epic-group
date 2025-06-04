@@ -29,11 +29,11 @@ function Sustainability() {
               <div className="badge bg-white uppercase font-bold text-black">
                 sustainability
               </div>
-              <h1 className="text-4xl lg:text-5xl text-white font-bold text-center lg:text-left">
+              <h1 className="text-4xl lg:text-[55px] text-white font-bold text-center lg:text-left leading-14">
                 Better Company,
                 <br /> Better World.
               </h1>
-              <p className="text-white text-center lg:text-left">
+              <p className="text-white text-center lg:text-left leading-6">
                 At Epic Group, sustainability is woven into the fabric of our
                 identity. Our commitment to ‘Better Company, Better World’ isn’t
                 just a theme—it’s a call to action that guides every facet of

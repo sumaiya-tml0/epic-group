@@ -92,7 +92,7 @@ function Latest() {
   };
 
   return (
-    <section className="latest-from-epic py-10 px-6 relative overflow-hidden">
+    <section className="latest-from-epic pb-10 px-6 relative overflow-hidden">
       <div>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-900 mb-4">
           The latest from Epic

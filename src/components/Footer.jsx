@@ -19,10 +19,10 @@ function Footer() {
           <h6 className="footer-title opacity-100 mb-8 capitalize tracking-[1.6px]">
             Our Company
           </h6>
-          <a className="link hover:text-[#0367bf] no-underline">About Us</a>
+          <NavLink to='/about' className="link hover:text-[#0367bf] no-underline">About Us</NavLink>
           <NavLink to="/our-people" className="link hover:text-[#0367bf] no-underline">Our People</NavLink>
-          <a className="link hover:text-[#0367bf] no-underline">Our Capabilities</a>
-          <a className="link hover:text-[#0367bf] no-underline">Sustainability</a>
+          <NavLink to='/our-capabilities' className="link hover:text-[#0367bf] no-underline">Our Capabilities</NavLink>
+          <NavLink to='sustainability' className="link hover:text-[#0367bf] no-underline">Sustainability</NavLink>
           <NavLink to="/showroom" className="link hover:text-[#0367bf] no-underline">Showroom</NavLink>
           <NavLink to="/epic-brand-values" className="link hover:text-[#0367bf] no-underline">Epic Brand Values</NavLink>
         </nav>
