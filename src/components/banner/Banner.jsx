@@ -18,6 +18,20 @@ function Banner() {
   const path = location.pathname
    const isHomePage = path === "/";
 
+   const bannerHeights = {
+  "/": "h-[90vh]",
+  "/about": "h-[100vh]",
+  "/our-capabilities": "h-[87vh]",
+  "/sustainability": "h-[80vh]",
+  "/our-careers": "h-[60vh]",
+  "/our-people": "h-[89vh]",
+  "/showroom": "h-[98vh]",
+  "/epic-brand-values": "h-[68vh]"
+  
+};
+
+const currentHeight = bannerHeights[path] || "h-[60vh]"; // Default height
+
     const bannerType = {
     "/": "slider",
     "/about": "video",
@@ -37,7 +51,7 @@ function Banner() {
   };
   return (
    <>
-   <div className="relative w-full h-screen overflow-hidden">
+   <div className={`relative w-full ${currentHeight} overflow-hidden`}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
 
@@ -45,7 +59,7 @@ function Banner() {
          {bannerType === "slider" && (
           <Slider {...settings}>
             {[img1, img2, img3, img4].map((img, idx) => (
-              <div key={idx} className="w-full h-screen">
+              <div key={idx} className="w-full h-[90vh]">
                 <img src={img} alt={`Slide ${idx + 1}`} className="w-full h-full object-cover" />
               </div>
             ))}
@@ -54,8 +68,8 @@ function Banner() {
 
         {bannerType === "image" && (
           <img src={careerBanner} alt="Banner" className="w-full h-full object-cover" />
-          // <div className='bg-center bg-cover' style={{backgroundImage: `url(${careerBanner})`, backgroundRepeat: "no-repeat"}}></div>
         )}
+
 
          {bannerType === "video" && (
           <video

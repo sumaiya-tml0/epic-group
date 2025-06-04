@@ -8,8 +8,8 @@ import img3 from "../../assets/careerPage/Culture.jpg"
 export default function CareerLayout() {
   return (
     <>
-    <div className='absolute top-2/4  z-20 w-full text-center flex justify-center items-center'>
-        <h1 className='text-8xl font-bold capitalize text-white'>our careers</h1>
+    <div className='absolute top-2/7  z-20 w-full text-center flex justify-center items-center'>
+        <h1 className='text-[100px] font-bold capitalize text-white'>our careers</h1>
     </div>
     <div className='mb-10 lg:mb-0'>
       <CareerItem
