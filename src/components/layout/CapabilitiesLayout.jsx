@@ -184,6 +184,10 @@ export default function CapabilitiesLayout() {
   };
 
   return (
+    <>
+    <div className='absolute top-[62%]  z-20 w-full text-center flex justify-center items-center'>
+        <h1 className='text-[46px] font-bold capitalize text-white'>our capabilities</h1>
+    </div>
     <div
       className="pt-12 pb-[60px] relative" style={{backgroundPosition:"-250px 0px"}}
     >
@@ -200,9 +204,9 @@ export default function CapabilitiesLayout() {
 
         </div>
 
-      <div className="px-4 max-w-[1250px] mx-auto relative">
+      <div className="px-[15px] max-w-[1250px] mx-auto relative">
         <Tabs>
-          <TabList className="flex flex-col md:gap-1 sm:flex-row sm:flex-wrap lg:justify-between lg:bg-[#ebf0f3] lg:rounded-full  text-[#1a3b91] px-2 lg:py-1.5 text-sm mb-12 capitalize cursor-pointer">
+          <TabList className="flex flex-col md:gap-1 sm:flex-row sm:flex-wrap lg:justify-between lg:bg-[#ebf0f3] lg:rounded-full  text-[#1a3b91] px-2 lg:py-[5px] text-sm mb-12 capitalize cursor-pointer">
             <Tab>Design & development</Tab>
             <Tab>supply chain</Tab>
             <Tab>manufacturing</Tab>
@@ -262,5 +266,6 @@ export default function CapabilitiesLayout() {
         </Tabs>
       </div>
     </div>
+    </>
   );
 }

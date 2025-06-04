@@ -54,7 +54,7 @@ section {
   backface-visibility: hidden;
 }
 .react-tabs__tab {
-  padding: 12px 35px !important;
+  padding: 11px 37px !important;
 }
 @media (min-width: 320px) {
   .react-tabs__tab {
@@ -65,7 +65,7 @@ section {
     background-color: #ebf0f3;
     border-radius: 50px;
     text-align: center;
-    margin-bottom: 3px;
+ 
 
   }
   .react-tabs__tab--selected {

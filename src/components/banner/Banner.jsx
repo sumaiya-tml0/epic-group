@@ -32,10 +32,21 @@ function Banner() {
 
 const currentHeight = bannerHeights[path] || "h-[60vh]"; // Default height
 
+const videoSources = {
+  "/about": "https://www.youtube.com/embed/VXQAIII8UeY",
+  "/sustainability": "https://www.youtube.com/embed/hc8s_amYc70",
+  "/showroom": "https://www.youtube.com/embed/jyi1EZlVWZI"
+};
+
+const currentVideo = videoSources[path];
+
     const bannerType = {
     "/": "slider",
     "/about": "video",
+    "/sustainability": "video",
     "/our-careers": "image",
+    "/showroom": "video",
+    "/epic-brand-values": "image"
   }[path] || "none"; 
 
      const settings = {
@@ -70,17 +81,9 @@ const currentHeight = bannerHeights[path] || "h-[60vh]"; // Default height
           <img src={careerBanner} alt="Banner" className="w-full h-full object-cover" />
         )}
 
-
-         {bannerType === "video" && (
-          <video
-            autoPlay
-            loop
-            muted
-            className="w-full h-full object-cover"
-          >
-            <source src="/videos/banner.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+ {bannerType === "video" && currentVideo && (
+        <iframe width="100%" height="100%" src={`${currentVideo}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
         )}
 
 

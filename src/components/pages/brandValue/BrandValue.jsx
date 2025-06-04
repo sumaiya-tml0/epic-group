@@ -4,7 +4,7 @@ export default function BrandValue() {
   return (
     <div>
       {" "}
-      <div className="absolute top-2/4  z-20 w-full text-center flex flex-col justify-center items-center">
+      <div className="absolute top-2/8  z-20 w-full text-center flex flex-col justify-center items-center">
         <h1 className="text-6xl lg:text-8xl font-bold capitalize text-white mb-7">
           epic brand values
         </h1>

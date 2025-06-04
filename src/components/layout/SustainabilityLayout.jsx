@@ -171,7 +171,7 @@ export default function SustainabilityLayout() {
 
         </div>
    
-         <div className="px-4 max-w-[1250px] mx-auto relative">
+         <div className="px-[15px] max-w-[1250px] mx-auto relative">
            <Tabs>
              <TabList className="flex flex-col md:gap-1 sm:flex-row sm:flex-wrap lg:justify-between lg:bg-[#ebf0f3] lg:rounded-full  text-[#1a3b91] px-2 lg:py-1.5 text-sm mb-12 capitalize cursor-pointer">
                <Tab>Environmental</Tab>

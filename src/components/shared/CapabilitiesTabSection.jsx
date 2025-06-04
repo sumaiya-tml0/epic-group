@@ -8,7 +8,7 @@ export default function CapabilitiesTabSection( {introTitle, introText, items, t
   const isCapabilities = location.pathname === '/our-capabilities'
   return (
      <div className=" lg:pb-8">
-    <h2 className="text-3xl font-bold mb-4 text-black text-center">{introTitle}</h2>
+    <h2 className="text-[32px] font-bold mb-4 text-black text-center">{introTitle}</h2>
     <div className='h-7'></div>
     <p className="mb-6 whitespace-pre-line text-center text-lg">{introText}</p>
     {
